@@ -1,30 +1,47 @@
 {
-	"description": "Boilerplate Nativescript Alfypro",
-	"license": "SEE LICENSE IN <your-license-filename>",
-	"readme": "Boilerplate Nativescript Alfypro",
-	"repository": "<fill-your-repository-here>",
-	"nativescript": {
-		"id": "com.imakinarte.tns-boilerplate"
-	},
-	"dependencies": {
-		"@angular/animations": "~5.2.0",
-		"@angular/common": "~5.2.0",
-		"@angular/compiler": "~5.2.0",
-		"@angular/core": "~5.2.0",
-		"@angular/forms": "~5.2.0",
-		"@angular/http": "~5.2.0",
-		"@angular/platform-browser": "~5.2.0",
-		"@angular/platform-browser-dynamic": "~5.2.0",
-		"@angular/router": "~5.2.0",
-		"nativescript-angular": "~5.3.0",
-		"nativescript-theme-core": "~1.0.4",
-		"reflect-metadata": "~0.1.8",
-		"rxjs": "~5.5.2",
-		"tns-core-modules": "^6.1.1",
-		"zone.js": "~0.8.2"
-	},
-	"devDependencies": {
-		"nativescript-dev-typescript": "~0.7.0",
-		"typescript": "~2.7.2"
-	}
+    "nativescript": {
+        "id": "org.nativescript.app1",
+        "tns-android": {
+            "version": "6.0.0"
+        },
+        "tns-ios": {
+            "version": "6.0.1"
+        }
+    },
+    "description": "NativeScript Application",
+    "license": "SEE LICENSE IN <your-license-filename>",
+    "repository": "<fill-your-repository-here>",
+    "scripts": {
+        "lint": "tslint \"src/**/*.ts\""
+    },
+    "dependencies": {
+        "@angular/animations": "8.0.0",
+        "@angular/common": "8.0.0",
+        "@angular/compiler": "8.0.0",
+        "@angular/core": "8.0.0",
+        "@angular/forms": "8.0.0",
+        "@angular/http": "8.0.0-beta.10",
+        "@angular/platform-browser": "8.0.0",
+        "@angular/platform-browser-dynamic": "8.0.0",
+        "@angular/router": "8.0.0",
+        "nativescript-angular": "8.0.2",
+        "nativescript-theme-core": "~1.0.4",
+        "nativescript-ui-sidedrawer": "7.0.0",
+        "reflect-metadata": "~0.1.12",
+        "rxjs": "~6.3.0",
+        "tns-core-modules": "6.0.1",
+        "zone.js": "0.9.1"
+    },
+    "devDependencies": {
+        "@angular/compiler-cli": "8.0.0",
+        "@nativescript/schematics": "~0.5.0",
+        "@ngtools/webpack": "8.0.0",
+        "codelyzer": "~4.5.0",
+        "nativescript-dev-webpack": "1.0.1",
+        "tslint": "~5.11.0",
+        "node-sass": "4.12.0",
+        "typescript": "3.4.5"
+    },
+    "gitHead": "7019c72a25b784ba304d3a198f4c1fc37add6536",
+    "readme": "NativeScript Application"
 }

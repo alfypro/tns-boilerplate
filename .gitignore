@@ -1,73 +1,34 @@
-# Folders
-dist
-hooks
-ios-typings-prj
-libs
-node_modules
-package
-platforms
-!tns-core-modules/platforms
-reports
-tags
+# NativeScript
+hooks/
+node_modules/
+platforms/
 
-# Files
-package-lock.json
+# NativeScript Template
+*.js.map
+*.js
+!webpack.config.js
+*.css
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# General
 .DS_Store
-.nsbuildinfo
-
-# IDEs and editors
-/.idea
+.AppleDouble
+.LSOverride
+.idea
+.cloud
 .project
-.classpath
-.c9/
-*.launch
-.settings/
-.atom
+tmp/
+typings/
 
-# IDE - VSCode
+# Visual Studio Code
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
-
-# Appium files
-mochawesome-report
-e2e/**/*.trace/
-e2e/**/test-results.xml
-e2e/**/e2e/resources/
-
-# Webpack configuration files
-webpack.config.js
-tsconfig.esm.json
-tsconfig.tns.json
-
-# Generated files
-*.map
-*.tgz
-.baseDir.ts
-tscommand*.tmp.txt
-.tscache
-
-# Other
-*.js
-# https://github.com/NativeScript/nativescript-dev-webpack/issues/932
-!tns-core-modules/xml/xml.js
-!tests/hooks/**/*.*
-!js-libs/**/*.*
-!css/**/*.*
-!css-value/**/*.*
-!fetch/**/*.*
-!apps/TelerikNEXT/lib/**/*.*
-!build/**/*.*
-.vs/
-
-.baseDir.ts
-.ctags-exclude
-
-TestRunResult.txt
-.testsapprun
-
-tns-core-modules.base.d.ts
-tns-core-modules.d.ts
-tns-core-modules.es6.d.ts
